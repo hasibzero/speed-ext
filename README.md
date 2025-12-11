@@ -89,10 +89,12 @@ For Facebook videos, a floating overlay appears when you hover over the video:
 
 ```
 speed-ext/
-├── manifest.json     # Extension configuration
-├── content.js        # Main logic for both platforms
-└── README.md         # This file
+├── manifest.json     # Extension configuration and metadata
+├── content.js        # Main logic for both YouTube and Facebook
+└── README.md         # Documentation (this file)
 ```
+
+*Note: Only main source files are shown. The repository also contains Git metadata.*
 
 ## Contributing
 
